@@ -1,4 +1,4 @@
-anaconda-navigator
+anaconda-navigator==1.2.2
 anaconda-project
 argh
 asn1crypto
