@@ -42,6 +42,7 @@ encoded_image1 = base64.b64encode(open(image_filename1, 'rb').read())
 
 #create dash app
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 app.config.suppress_callback_exceptions = True
 
 
