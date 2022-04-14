@@ -1,2 +1,2 @@
   
-web:gunicorn Project2_ist191036:server
+web: gunicorn project2_ist191036:server
