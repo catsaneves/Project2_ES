@@ -3,6 +3,7 @@
 Project 2 - Catarina Neves - 91036
 07-04-22
 @author: catarina
+@herokuapp : dash-app91036.herokuapp.com
 """
 
 import dash
@@ -61,6 +62,7 @@ app.layout = html.Div([
                 'height': '30%',
                 'width': '30%'
             }),
+    html.H1('Online at https://dash-app91036.herokuapp.com/',style={'textAlign':'right', 'fontSize': 16}),
     dcc.Tabs(id='tabs', value='tab-1', children=[
         dcc.Tab(label='Raw Data', value='tab-1'),
         dcc.Tab(label='Forecasting Methods', value='tab-2'),
